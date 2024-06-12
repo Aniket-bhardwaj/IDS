@@ -1,5 +1,6 @@
 # IDS
 Intrusion Detection System (IDS) with Machine Learning and MongoDB
+
 # Project Report: Intrusion Detection System (IDS) with Machine Learning and MongoDB
 
 ## Table of Contents
@@ -12,7 +13,8 @@ Intrusion Detection System (IDS) with Machine Learning and MongoDB
 7. Conclusion
 8. Future Work
 9. References
-
+10. Important Links
+    
 ## 1. Introduction
 
 In the modern digital landscape, network security is of paramount importance. Intrusion Detection Systems (IDS) play a crucial role in monitoring network traffic, identifying suspicious activities, and taking action to prevent potential threats. This project involves the creation of an IDS that leverages machine learning (ML) for real-time packet classification and uses MongoDB for logging and analysis.
@@ -97,6 +99,10 @@ Future improvements and extensions of the project may include:
 - UNSW-NB15 Dataset: A comprehensive dataset for network intrusion detection.
 - Scapy Documentation: Official documentation for the `scapy` library.
 - MongoDB Documentation: Official MongoDB documentation for database management.
-- Python Official Documentation: Comprehensive guide to Python programming. 
+- Python Official Documentation: Comprehensive guide to Python programming.
 
-By following these steps and leveraging the described components, the IDS provides a robust solution for real-time network security monitoring and threat mitigation.
+## 10. Links
+dataset : https://research.unsw.edu.au/projects/unsw-nb15-dataset
+MongoDB Create a DM named ids and two collections name Blacklist and Packets to make this work update the database link in code too 
+
+
